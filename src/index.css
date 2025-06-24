@@ -148,7 +148,7 @@ body {
     }
 
     .list {
-      @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 2xl:px-0 px-5;
+      @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 2xl:px-10 px-5;
 
       .popular {
         @apply space-y-8 w-full md:w-fit;
@@ -185,7 +185,7 @@ body {
   }
 
   #about {
-    @apply min-h-screen py-28 2xl:px-0 px-5 container mx-auto;
+    @apply min-h-screen py-28 2xl:px-10 px-5 container mx-auto;
 
     .content {
       @apply grid grid-cols-1 lg:grid-cols-12 gap-5;
@@ -275,7 +275,7 @@ body {
   }
 
   #menu {
-    @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
+    @apply relative w-full md:mt-40 mt-0 2xl:px-10 px-5 py-20 radial-gradient;
 
     #m-left-leaf {
       @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
