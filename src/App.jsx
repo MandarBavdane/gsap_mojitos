@@ -9,6 +9,7 @@ import Cocktails from "./components/Cocktails";
 import About from "./components/About";
 import Art from "./components/Art";
 import Menu from "./components/Menu";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <About />
       <Art />
       <Menu />
+      <Contact />
     </main>
   );
 };
