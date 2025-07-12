@@ -241,7 +241,7 @@ body {
   }
 
   #art {
-    @apply flex-center flex-col min-h-dvh p-5 lg:p-10 mt-20 relative radial-gradient;
+    @apply flex-center flex-col min-h-dvh p-5 lg:p-10 xl:p-20 mt-20 relative radial-gradient;
 
     h2 {
       @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-modern-negra text-center text-[#505050] mb-8;
@@ -275,7 +275,7 @@ body {
   }
 
   #menu {
-    @apply relative w-full md:mt-40 mt-0 2xl:px-10 px-5 py-20 radial-gradient;
+    @apply relative w-full md:mt-40 mt-0 2xl:px-20 px-5 py-20 radial-gradient;
 
     #m-left-leaf {
       @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
